@@ -2,15 +2,12 @@ class Dog
   def bark
     puts "woof!"
   end 
-def name = (dog_name)
-  @this_dog_name = dog_name
-end
-
-def name
-  @this_dog_name
-  puts "Fido"
-end
-
+  def name = (dog_name)
+    @this_dog_name = dog_name
+  end
+  def name
+   @this_dog_name
+  end
 end
 
 fido = Dog.new 
