@@ -2,7 +2,7 @@ class Dog
   def bark
     puts "woof!"
   end 
-def name =(dog_name)
+def name 
   @this_dog_name = dog_name
 end
 
